@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int n;
+    cin>>n;
+    int num=1;
+    for(int prod=1; prod<=n; prod++)
+    {
+        num=prod*num;
+    }
+    cout<<num<<endl;
+    return 0;
+}
